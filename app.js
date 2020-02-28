@@ -33,6 +33,7 @@ mongoose.set('debug', true);
 
 //Models & routes
 require('./models/Users');
+require('./models/Posts');
 require('./config/passport');
 app.use(require('./routes'));
 
